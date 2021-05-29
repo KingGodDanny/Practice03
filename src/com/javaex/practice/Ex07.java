@@ -12,6 +12,8 @@ public class Ex07 {
 		int num = sc.nextInt();
 		int x,y; 
 		
+		
+		/* 1번째 코딩
 		for (y=1; y<=num; y++) {
 			for (x=1; x<=y-1; x++) {
 				
@@ -21,6 +23,17 @@ public class Ex07 {
 			System.out.println(x);
 		}
 			
+		*/ 
+		
+		//두번째 코딩 
+		for (y=1; y<=num; y++) {
+			for (x=1; x<=y; x++) {
+				
+				System.out.print(y);
+				
+			}
+			System.out.println("");
+		}
 		
 		
 		
