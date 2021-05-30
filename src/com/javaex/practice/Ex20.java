@@ -37,9 +37,7 @@ public class Ex20 {
 							System.out.println("	[숫자맞추기게임 종료]	");
 							System.out.println("===================================");
 							break;
-						}	else {
-							System.out.println("gg");
-						}
+						}	
 						
 						
 				} else if(num > rd) {
