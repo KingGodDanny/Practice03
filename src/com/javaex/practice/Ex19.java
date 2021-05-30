@@ -31,7 +31,7 @@ public class Ex19 {
 			} else if(choice==2) {
 				System.out.print("출금액>" );
 				 pay = sc.nextInt();
-				 balance = save - pay;
+				 balance = balance - pay;
 				 
 			} else if(choice==3) {
 				System.out.println("잔고액>" + balance );
